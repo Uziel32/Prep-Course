@@ -41,7 +41,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  retur x - y;
+  return x - y;
 }
 
 function multiplica(x, y) {
@@ -233,10 +233,10 @@ function esVocal(letra){
   if (letra.length > 1){
     return "Dato incorrecto"
   }
-  if (letra.length === "a"|| letra === "e" || letra === "i" || letra "o" || letra === "u"){
-    return "Es vocal"
+  if (letra.length === "a"||letra === "e"||letra === "i" || letra.length ==="o" || letra.length === "u" ){
+    return "Es vocal";
   }
-  return "Dato incorrecto"
+  return "Dato incorrecto";
 }
 
 
